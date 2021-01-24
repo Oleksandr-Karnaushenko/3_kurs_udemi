@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body button {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-size: 20px;
+  border-style: dashed;
+  background-color: transparent;
+}
+
+body div.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body div.numbers div {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: solid 2px black;
+}
+
+body div.numbers div.circle {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
