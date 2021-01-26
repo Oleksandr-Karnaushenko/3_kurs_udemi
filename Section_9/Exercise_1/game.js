@@ -64,7 +64,7 @@ btn.addEventListener('click', () => {
 
     document.querySelector(
       `[data-option="${game.playerChoice}"]`
-    ).style.boxShadow = '';
+    ).style.border = '';
     game.playerChoice = '';
   } else alert('Please select!');
 });
