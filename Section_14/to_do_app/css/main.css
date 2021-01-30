@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #76f3ed;
+  border: 2px solid black;
+}
+
+body header h1 {
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+body header form {
+  margin: auto;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0px;
+}
+
+body header form input {
+  height: 30px;
+}
+
+body header form button {
+  text-transform: uppercase;
+  width: 100px;
+  height: 30px;
+  font-size: large;
+  cursor: pointer;
+}
+
+body section {
+  width: 500px;
+  margin: 30px auto;
+  background-color: #ddd;
+  border: 2px solid black;
+}
+
+body section h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+body section ul {
+  margin: 10px auto;
+}
+
+body section ul li.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0 5px 10px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+body section ul li.task p {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 5px;
+  background-color: #eee;
+}
+
+body section ul li.task p.doneTask {
+  background-color: greenyellow;
+  text-decoration: line-through;
+}
+
+body section ul li.task button {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  height: 50px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body section ul li.task button.done {
+  background-color: greenyellow;
+}
+
+body section ul li.task button.rework {
+  background-color: yellow;
+}
+
+body section ul li.task button.remove {
+  background-color: brown;
+}
+/*# sourceMappingURL=main.css.map */
